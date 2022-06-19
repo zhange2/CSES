@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
-#define endl '\n'
 const int maxN = 2e5;
 ll n,a[maxN+1],ans;
 int main()
@@ -13,5 +12,5 @@ int main()
     for (int i=0;i<n && a[i] <= ans;i++) {
         ans+=a[i];
     }
-    cout<<ans<<endl;
+    cout<<ans<<'\n';
 }
