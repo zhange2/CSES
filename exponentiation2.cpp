@@ -14,7 +14,7 @@ int main() {
 	vector<int>v;
 	while (n--) {
 		cin>>a>>b>>c;
-		ll temp = solve(b,c, mod - 1); // why mod - 1??
+		ll temp = solve(b,c, mod - 1);
 		cout << solve(a, temp, mod) << '\n';
 	}
 }
