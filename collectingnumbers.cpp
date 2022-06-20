@@ -1,10 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define endl '\n'
 #define ll long long
+#define vt vector
+#define pb push_back
+#define all(c) (c).begin(), (c).end()
+#define dbg(c) cout << #c << '=' << c << endl
+#define sz(x) (int)(x).size()
 const int maxN = 2e5;
 int n,a[maxN+1],ans,b[maxN+1];
-//count how many numbers where: index of i > index of i+1
 int main()
 {
     cin>>n;
@@ -20,5 +23,5 @@ int main()
             ans++;
         }
     }
-    cout<<ans<<endl;
+    cout<<ans<<'\n';
 }
